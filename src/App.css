@@ -78,25 +78,24 @@ body {
   width: 180px;
 }
 
-.container-missions div {
-
-}
-
 .container-missions {
-  border: white solid 2px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 4% 10%;
+  margin: 0 10.3%;
+  width: 60em;
+
 }
 
 .container-mission-texts {
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   border: rgb(168, 166, 166) solid 1px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  height: 400px;
+  height: 14em;
   justify-content: center;
-  padding: 0 10%;
+  margin-top: 8%;
+  width: 18em;
 }
