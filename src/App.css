@@ -1,3 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+}
+
+@font-face {
+  font-family: Open Sans , sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Source+Serif+Pro:wght@200&display=swap');
+}
+
+body {
+  background-image: url('./images/background.png');
+  color: white;
+  font-family: Open Sans , sans-serif;
+  font-size: x-large;
+}
+
+.h1-header {
+  display: flex;
+  justify-content: center;
+}
+
+.div-container-headline {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: rgb(168, 166, 166) solid 1px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 4% 10%;
+}
+
+.div-container-planeta {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.container-planetas {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 3%;
+  margin-right: 2%;
+}
+
+.Mercúrio img {
+  width: 50px;
+}
+
+.Vênus img {
+  width: 170px;
+}
+
+.Terra img {
+  width: 170px;
+}
+
+.Marte img {
+  width: 110px;
+}
+
+.Júpiter img {
+  width: 380px;
+}
+
+.Saturno img {
+  width: 400px;
+}
+
+.Urano img {
+  width: 180px;
+}
+
+.Netuno img {
+  width: 180px;
+}
+
+.container-missions div {
+
+}
+
+.container-missions {
+  border: white solid 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 4% 10%;
+}
+
+.container-mission-texts {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: rgb(168, 166, 166) solid 1px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;
+  padding: 0 10%;
 }
